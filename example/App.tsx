@@ -67,7 +67,9 @@ export default function App() {
         shift={0.75}
       />
       <View style={styles.about}>
-        <Text style={styles.name}>[ react-native-image-viewing ]</Text>
+        <Text style={styles.name}>
+          [ react-native-image-viewing-sieuhuflit ]
+        </Text>
       </View>
       <ImageViewing
         images={getImageSource(images)}

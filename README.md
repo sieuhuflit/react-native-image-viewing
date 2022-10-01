@@ -1,8 +1,8 @@
-# react-native-image-viewing
+# react-native-image-viewing-sieuhuflit
 
 > React Native modal component for viewing images as a sliding gallery.
 
-[![npm version](https://badge.fury.io/js/react-native-image-viewing.svg)](https://badge.fury.io/js/react-native-image-viewing)
+[![npm version](https://badge.fury.io/js/react-native-image-viewing-sieuhuflit.svg)](https://badge.fury.io/js/react-native-image-viewing-sieuhuflit)
 [![styled with prettier](https://img.shields.io/badge/styled_with-prettier-ff69b4.svg)](https://github.com/prettier/prettier)
 
 - 🔥Pinch zoom for both iOS and Android
@@ -11,28 +11,28 @@
 - 🔥Custom header and footer components
 - 🔥Uses VirtualizedList to optimize image loading and rendering
 
-Try with Expo: https://expo.io/@antonkalinin/react-native-image-viewing
+Try with Expo: https://expo.io/@antonkalinin/react-native-image-viewing-sieuhuflit
 
 <p align="center">
-  <img src="https://github.com/jobtoday/react-native-image-viewing/blob/master/demo.gif?raw=true" height="480" />
+  <img src="https://github.com/jobtoday/react-native-image-viewing-sieuhuflit/blob/master/demo.gif?raw=true" height="480" />
 </p>
 
 ## Installation
 
 ```bash
-yarn add react-native-image-viewing
+yarn add react-native-image-viewing-sieuhuflit
 ```
 
 or
 
 ```bash
-npm install --save react-native-image-viewing
+npm install --save react-native-image-viewing-sieuhuflit
 ```
 
 ## Usage
 
 ```jsx
-import ImageView from "react-native-image-viewing";
+import ImageView from "react-native-image-viewing-sieuhuflit";
 
 const images = [
   {
@@ -53,17 +53,17 @@ const [visible, setIsVisible] = useState(false);
   imageIndex={0}
   visible={visible}
   onRequestClose={() => setIsVisible(false)}
-/>
+/>;
 ```
 
-#### [See Example](https://github.com/jobtoday/react-native-image-viewing/blob/master/example/App.tsx#L62-L80)
+#### [See Example](https://github.com/jobtoday/react-native-image-viewing-sieuhuflit/blob/master/example/App.tsx#L62-L80)
 
 ## Props
 
 | Prop name                | Description                                                                                         | Type                                                        | Required |
 | ------------------------ | --------------------------------------------------------------------------------------------------- | ----------------------------------------------------------- | -------- |
 | `images`                 | Array of images to display                                                                          | ImageSource[]                                               | true     |
-| `keyExtractor`           | Uniqely identifying each image    | (imageSrc: ImageSource, index: number) => string | false |
+| `keyExtractor`           | Uniqely identifying each image                                                                      | (imageSrc: ImageSource, index: number) => string            | false    |
 | `imageIndex`             | Current index of image to display                                                                   | number                                                      | true     |
 | `visible`                | Is modal shown or not                                                                               | boolean                                                     | true     |
 | `onRequestClose`         | Function called to close the modal                                                                  | function                                                    | true     |
@@ -82,7 +82,7 @@ const [visible, setIsVisible] = useState(false);
 
 ## Contributing
 
-To start contributing clone this repo and then run inside `react-native-image-viewing` folder:
+To start contributing clone this repo and then run inside `react-native-image-viewing-sieuhuflit` folder:
 
 ```bash
 yarn
